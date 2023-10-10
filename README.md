@@ -8,6 +8,7 @@
     nombre TEXT NOT NULL,
     direccion TEXT NOT NULL
 );
+
 ```
 
 ``` CREATE TABLE medidores (
