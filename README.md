@@ -1,6 +1,6 @@
 # Crear Base De Datos PostgreSQL 
 
-``` CREATE DATABASE evol_services; ```
+CREATE DATABASE evol_services;
 
 ``` CREATE TABLE clientes (
     id SERIAL PRIMARY KEY,
