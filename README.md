@@ -46,12 +46,11 @@ recuerda reemplazar tu_bdd y tu_password por tus credenciales de tu base de dato
 
 # Instala las dependencias del proyecto:
 
-```npm install
-```
+``` npm install```
 
 # Inicia el servidor:
 
-```npm start
+``` npm start
 ```
 
 # Endpoints
