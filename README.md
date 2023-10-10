@@ -1,16 +1,16 @@
 # Crear Base De Datos PostgreSQL 
 
-```CREATE DATABASE evol_services;```
+`CREATE DATABASE evol_services;`
 
-```CREATE TABLE clientes (
+`CREATE TABLE clientes (
     id SERIAL PRIMARY KEY,
     rut TEXT NOT NULL UNIQUE,
     nombre TEXT NOT NULL,
     direccion TEXT NOT NULL
 );
-```
+`
 
-```CREATE TABLE medidores (
+`CREATE TABLE medidores (
     id SERIAL PRIMARY KEY,
     codigo TEXT NOT NULL UNIQUE,
     nombre TEXT NOT NULL,
@@ -18,7 +18,7 @@
     descripcion TEXT,
     cliente_id INT REFERENCES clientes (id) ON DELETE CASCADE
 );
-```
+`
 
 # API de Gestión de Clientes y Medidores 
 Esta es una API simple para la gestión de clientes y medidores. Permite realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) tanto para clientes como para medidores.
@@ -46,11 +46,13 @@ recuerda reemplazar tu_bdd y tu_password por tus credenciales de tu base de dato
 
 # Instala las dependencias del proyecto:
 
-```npm install```
+```npm install
+```
 
 # Inicia el servidor:
 
-```npm start```
+```npm start
+```
 
 # Endpoints
 ## Clientes
