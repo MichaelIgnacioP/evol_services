@@ -142,6 +142,9 @@ cd
 # Instala las dependencias
 npm install
 
+# Declara las variables de entorno en un archivo .env en la raiz del proyecto
+REACT_APP_API_URL='http://localhost:8080'
+
 # Ejecuta el proyecto
 npm run start
 
