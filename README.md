@@ -28,9 +28,12 @@ Node.js
 Express.js
 PostgreSQL
 Cors (para habilitar CORS en las solicitudes)
+Postman (para consumir la API)
 
 # Configuración
 Clona este repositorio en tu máquina local.
+
+``` git clone https://github.com/MichaelIgnacioP/evol_services.git```
 
 Crea un archivo .env en la raíz del proyecto y configura las siguientes variables de entorno:
 
