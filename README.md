@@ -40,7 +40,8 @@ git clone https://github.com/MichaelIgnacioP/evol_services.git
 
 Crea un archivo .env en la raíz del proyecto y configura las siguientes variables de entorno:
 
-``` PORT=8080
+```
+PORT=8080
 DB_USER=postgres
 DB_HOST=localhost
 DB_DATABASE=tu_bdd
