@@ -50,7 +50,7 @@ recuerda reemplazar tu_bdd y tu_password por tus credenciales de tu base de dato
 
 # Inicia el servidor:
 
-``` npm start```
+``` nodemon app.js```
 
 # Endpoints
 ## Clientes
@@ -124,6 +124,17 @@ recuerda reemplazar tu_bdd y tu_password por tus credenciales de tu base de dato
 - **Respuesta Exitosa (200 OK):** JSON con un mensaje de éxito.
 - **Respuesta de Error (404 Not Found o 500 Internal Server Error):** JSON con un mensaje de error en caso de medidor no encontrado o en el servidor.
 
+# Instalación proyecto REACT
 
+```bash
+# Clona el repositorio
+git clone https://github.com/MichaelIgnacioP/evol_services.git
+# Navega al directorio del proyecto
+cd 
 
+# Instala las dependencias
+npm install
+
+# Ejecuta el proyecto
+npm run start
 
