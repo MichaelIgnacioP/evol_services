@@ -32,12 +32,13 @@ Clona este repositorio en tu máquina local.
 
 Crea un archivo .env en la raíz del proyecto y configura las siguientes variables de entorno:
 
-´´ PORT=8080
+``` PORT=8080
 DB_USER=postgres
 DB_HOST=localhost
 DB_DATABASE=tu_bdd
 DB_PASSWORD=tu_password
-DB_PORT=5432 
+DB_PORT=5432
+```
 
 recuerda reemplazar tu_bdd y tu_password por tus credenciales de tu base de datos PostgreSQL.
 
