@@ -57,7 +57,7 @@ recuerda reemplazar tu_bdd y tu_password por tus credenciales de tu base de dato
 
 # Listar todos los clientes
 
-```URL: /api/clientes
+``` URL: /api/clientes
 Método HTTP: GET
 Descripción: Devuelve una lista de todos los clientes en la base de datos.
 Respuesta Exitosa (200 OK): JSON con la lista de clientes.
