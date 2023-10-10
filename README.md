@@ -1,23 +1,22 @@
 # Crear Base De Datos PostgreSQL 
 
-``` CREATE DATABASE evol_services; ```
+``sql
+CREATE DATABASE evol_services;
 
-
-   ``` CREATE TABLE clientes (
-    id SERIAL PRIMARY KEY,
-    rut TEXT NOT NULL UNIQUE,
-    nombre TEXT NOT NULL,
-    direccion TEXT NOT NULL
+CREATE TABLE clientes (
+id SERIAL PRIMARY KEY,
+rut TEXT NOT NULL UNIQUE,
+nombre TEXT NOT NULL,
+direccion TEXT NOT NULL
 );
 
-
-    CREATE TABLE medidores (
-    id SERIAL PRIMARY KEY,
-    codigo TEXT NOT NULL UNIQUE,
-    nombre TEXT NOT NULL,
-    fecha_creacion DATE NOT NULL,
-    descripcion TEXT,
-    cliente_id INT REFERENCES clientes (id) ON DELETE CASCADE
+CREATE TABLE medidores (
+id SERIAL PRIMARY KEY,
+codigo TEXT NOT NULL UNIQUE,
+nombre TEXT NOT NULL,
+fecha_creacion DATE NOT NULL,
+descripcion TEXT,
+cliente_id INT REFERENCES clientes (id) ON DELETE CASCADE
 );
 ```
 
