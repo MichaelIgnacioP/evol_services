@@ -1,6 +1,6 @@
 # Crear Base De Datos PostgreSQL 
 
-``sql
+```sql
 CREATE DATABASE evol_services;
 
 CREATE TABLE clientes (
